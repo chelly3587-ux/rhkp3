@@ -22,3 +22,13 @@
 5 (연습문제 9.1-10) 스칼라 성분과 정사영
 * 1단계 (What): 스칼라 성분 및 정사영 공식을 이용. $u \cdot v = (2)(6) + (-3)(0) = 12$ 이고 $|a| = \sqrt{13}$ 이다.스칼라 성분 $comp_a b = \frac{a \cdot b}{|a|} = \frac{12}{\sqrt{13}}$ .벡터 정사영 $proj_a b = \left(\frac{a \cdot b}{|a|^2}\right)a = \frac{12}{13}\langle 2, -3 \rangle = \langle \frac{24}{13}, -\frac{36}{13} \rangle$ 이다.
 * 2단계 (So What): 벡터 $b$ 를 벡터 $a$ 의 방향으로 투영시켜 그 영향력을 정량화한 것이다
+
+
+6 (연습문제 9.1-12) 수직 성분 분해
+* 1단계 (What): $u_{parallel} = proj_v u = \frac{u \cdot v}{|v|^2}v = \frac{12-4-15}{3^2+(-4)^2+(-5)^2}v = -\frac{7}{50}\langle 3, -4, -5 \rangle$ 이다. 수직 성분 $u_{perp} = u - u_{parallel} = \langle 4, 1, 3 \rangle + \langle \frac{21}{50}, -\frac{28}{50}, -\frac{35}{50} \rangle = \langle \frac{221}{50}, \frac{22}{50}, \frac{115}{50} \rangle$ 이다.
+* 2단계 (So What): 하나의 벡터를 기준 방향에 평행한 성분과 직교하는 성분으로 완벽히 분리함
+
+
+7 (연습문제 9.2-3) 벡터행렬 곱
+* 1단계 (What): 행벡터 $u$ 와 행렬 $A$의 곱 $uA$ 를 계산한다.$uA = (2, 3, -5) \begin{pmatrix} 1 & 2 & 3 \\ 0 & 1 & 2 \\ 4 & -2 & 7 \end{pmatrix} = (2\cdot1 + 3\cdot0 - 5\cdot4, \dots) = (-18, 17, -23)$
+* 2단계 (So What): 행렬을 선형 변환 장치로 볼 때, 입력 벡터 $u$ 가 시스템 $A$ 를 통과하여 새로운 출력 벡터로 변환되는 과정을 보여준다.
